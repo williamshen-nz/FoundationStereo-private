@@ -33,3 +33,7 @@ dependencies:
     - nodejs
     - xformers==0.0.28.post1
     - huggingface-hub
+    # For HTTP server
+    - fastapi
+    - uvicorn
+    - python-multipart
